@@ -5,6 +5,8 @@
 			<category name="module.cms">
 				<parent>module</parent>
 			</category>
+			
+			<category name="cms"></category>
 		</categories>
 	</import>
 </data>
