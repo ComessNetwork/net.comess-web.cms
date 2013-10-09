@@ -2,18 +2,24 @@
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
 	<import>
 		<categories>
-			<category name="module.cms">
-				<parent>module</parent>
-			</category>
-			
 			<category name="cms"></category>
 			
 			<category name="index">
 				<parent>cms</parent>
 			</category>
+			
+			<category name="module.cms">
+				<parent>module</parent>
+			</category>
 		</categories>
 		
 		<options>
+			<option name="cms_install_date">
+				<categoryname>general</categoryname>
+				<optiontype>integer</optiontype>
+				<hidden>1</hidden>
+			</option>
+		
 			<option name="index_title">
 				<categoryname>index</categoryname>
 				<optiontype>textareaI18n</optiontype>
