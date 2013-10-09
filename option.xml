@@ -7,6 +7,45 @@
 			</category>
 			
 			<category name="cms"></category>
+			
+			<category name="index">
+				<parent>cms</parent>
+			</category>
 		</categories>
+		
+		<options>
+			<option name="index_title">
+				<categoryname>index</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue><![CDATA[Startseite]]></defaultvalue>
+			</option>
+			
+			<option name="index_description">
+				<categoryname>index</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue><![CDATA[Die Beschreibung der Startseite]]></defaultvalue>
+			</option>
+			
+			<option name="index_headline">
+				<categoryname>index</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue><![CDATA[Herzlich Willkommen]]></defaultvalue>
+			</option>
+			
+			<option name="index_content">
+				<categoryname>index</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue><![CDATA[Hier könnte Ihr Text stehen.]]></defaultvalue>
+			</option>
+			
+			<option name="index_content_enable_html">
+				<categoryname>index</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+		</options>
 	</import>
 </data>
