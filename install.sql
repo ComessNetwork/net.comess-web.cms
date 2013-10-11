@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS cms1_page;
+CREATE TABLE cms1_page (
+	pageID INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	title VARCHAR(255) NOT NULL,
+	description TEXT,
+	headline1 VARCHAR(255) NOT NULL,
+	headline2 VARCHAR(255) NOT NULL,
+	headline3 VARCHAR(255) NOT NULL,
+	headline4 VARCHAR(255) NOT NULL,
+	headline5 VARCHAR(255) NOT NULL,
+	content1 TEXT NOT NULL,
+	content2 TEXT NOT NULL,
+	content3 TEXT NOT NULL,
+	content4 TEXT NOT NULL,
+	content5 TEXT NOT NULL,
+	menuItemController VARCHAR(255) NOT NULL DEFAULT '',
+	isDisabled TINYINT(1) NOT NULL DEFAULT 0,
+	showOrder INT(10) NOT NULL DEFAULT 0,
+	permissions TEXT
+);
