@@ -5,6 +5,10 @@
 			<category name="user.cms">
 				<parent>user</parent>
 			</category>
+			
+			<category name="mod.cms">
+				<parent>mod</parent>
+			</category>
 
 			<category name="admin.cms">
 				<parent>admin</parent>
