@@ -15,11 +15,11 @@
 			<templatecode><![CDATA[{include file='__cmsVersion' application='cms'}]]></templatecode>
 		</templatelistener>
 		
-		<templatelistener name="copyright">
+		<templatelistener name="searchAreaSettings">
 			<environment>user</environment>
-			<templatename>footer</templatename>
-			<eventname>copyright</eventname>
-			<templatecode><![CDATA[{include file='__copyright' application='cms'}]]></templatecode>
+			<templatename>searchArea</templatename>
+			<eventname>settings</eventname>
+			<templatecode><![CDATA[{include file='__searchAreaSettings' application='cms'}]]></templatecode>
 		</templatelistener>
 		
 		<templatelistener name="headerLogo">
@@ -27,6 +27,13 @@
 			<templatename>header</templatename>
 			<eventname>headerLogo</eventname>
 			<templatecode><![CDATA[{include file='__headerLogo' application='cms'}]]></templatecode>
+		</templatelistener>
+		
+		<templatelistener name="copyright">
+			<environment>user</environment>
+			<templatename>footer</templatename>
+			<eventname>copyright</eventname>
+			<templatecode><![CDATA[{include file='__copyright' application='cms'}]]></templatecode>
 		</templatelistener>
 	</import>
 </data>
